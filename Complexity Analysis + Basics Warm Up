@@ -1,1 +1,109 @@
+DSA learing series of CodeChef is a begineer level very very long contest!!!!! Actually Its for learning purpose,SO publishing  tutorial during contest is allowed.
+There are many topics....the first one is "Complexity Analysis + Basics Warm Up". There are 9 problems.I tried to solve all....at least I become successful.
+I solved 8 problems by fully myself,for the last one I have to see others code.But I write code by my idea.
+I solved all by C++14.
+
+
+
+The first problem is: https://www.codechef.com/LRNDSA01/problems/TEST
+The problem says to take input(1 or 2 digits number) and print them until the number 42 is found,In my code I use "return 0" to terminate.
+We have to print newline after each number.
+My solution is here...https://ideone.com/jqK2mK
+The first one is very easy.Now come to the second one....
+
+
+
+The Second problem is: https://www.codechef.com/LRNDSA01/problems/FLOW007
+The problem says to reverse a number.Suppose a number is 12345,then we have to print 54321.We can easily do it by string reverse function.
+If we use the function,We get WA(wrong answer) because,for 3400 the output will be 0043.But our standard output is 43.So wew have to use another function,
+that is string stream.I didn't use that string stream class before that...String Stream transfer a string into number.
+If you don't understand see my solution...
+https://ideone.com/iCoIq3
+The second problem can be solved by another way(actually many ways).
+
+
+
+Now come to the 3rd problem.
+The third problem is: https://www.codechef.com/LRNDSA01/problems/LAPIN
+The name of the problem is very interesting.Lapindrome....!Suppose we have a string.we have to devide the string in two equal parts.
+If the elements of those two parts are sameand their frequency of every element is same ,the string is lapindrome.
+So abab is a lapindrome.
+"abba" is also a lapindrome(the first part is "ab" and the second part is "ba",there are two characters in both part...their frequency are same too...)
+So,abbaab is not a lapindrome.....
+What if the length of the string is ODD??? We have to skip the middle character...
+So,Let the string is "apspa",tength is 5.The middle character is "s",after skipping this,the string is "appa",that is a Lapindrome.
+If you don't understand see the code...!
+https://ideone.com/3O6OE6
+
+
+
+The forth problem is:https://www.codechef.com/LRNDSA01/problems/ZCO14003
+Read the problem first...suppose there are 5 people,They are interested to buy your app.
+They can only buy the app iff the prize of the app is less than or equal to their ability(their money).
+Suppose their ability is 65,21,40,33,3.You have to find out when the profit is maximum?
+You have to print the maximum profit.
+if you sell the app at price 65,only one people can buy it.So the maximum profit is: 65 X 1 = 65.
+if the price of the app is 40,The maximum profit is: 40 X 2 = 80.(2 people can buy the app)
+if the price of the app is 33,The maximum profit is: 33 X 3 = 99.(3 people can buy the app)
+if the price of the app is 21,The maximum profit is: 21 X 4 = 84.(4 people can buy the app)
+if the price of the app is 3,The maximum profit is :3 X 5 = 15.(5 people can buy the app)
+So the maximum profit is 99.
+my code is: https://ideone.com/smVZZa
+
+
+
+The fifth problem is :https://www.codechef.com/LRNDSA01/problems/CARVANS
+In this problem we have to find how many cars can go to its maximum spreed...read the problem first.
+For each case the first car can run by its maximum spreed.and if x>y<z,than the car y can run in its maximum spreed.
+my code: https://ideone.com/RLGUVD
+
+
+The sixth problem is :https://www.codechef.com/LRNDSA01/problems/FCTRL
+It takes more than 2 hours to solve the problem though it is very easy.
+We have to calculate the  trailing zeros of n!.
+if n==5 we get 1 trailing Zero...
+if n==10 we get 2  trailing zero...
+....
+....
+if n==25 we get 6  trailing zero...
+....
+....
+I don't want to share more information....to understand how the  trailing zero increases,
+you can visit...https://www.calculatorsoup.com/calculators/discretemathematics/factorials.php
+My code is:https://ideone.com/9UhyGL
+
+
+
+The seventh problem is:https://www.codechef.com/LRNDSA01/problems/CONFLIP
+My algorithm is:
+   if (I = HEAD(1) and Q=HEAD(1)) or (I=Tail(2) and Q=Tail(2))result=n/2;
+   else result = n-(n/2)
+we can implement it more easily....
+if(I == Q) result=n/2;
+else result =n-(n/2);
+My code:https://ideone.com/64Km7O
+
+
+The eight number problem is:https://www.codechef.com/LRNDSA01/problems/LADDU
+To solve the problem one need to know about just if,if...else...etc.But I get TLE once time and WA also..!So be careful in using loop
+My code is:https://ideone.com/b2ke1F
+
+
+The last problem is:https://www.codechef.com/LRNDSA01/problems/MULTHREE
+The problem gives us first two digits of a number,and also the number of digits....We have to find out if the number is divisible by 3 or not...
+If a number is divisible by 3,then the summation of the digits of the number must be divisible by 3.So we have to find the other digits of the number...
+My Code is:https://ideone.com/nSqhoH
+
+
+Thats all....!Thanks for Reading....!
+
+
+Shahariar Amin,
+     Student,
+	 Dept of CSE(first year,first semester)
+	 RUET,BANGLADESH.
+
+
+
+
 
